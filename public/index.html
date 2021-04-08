@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="./main.js" defer></script>
+    <title>Mini Game</title>
+  </head>
+  <body>
+    <main>
+      <canvas id="board" height="500" width="500"></canvas>
+      <!-- <div class="buttons">
+        <div></div>
+        <button class="up">&#8593;</button>
+        <div></div>
+        <button class="left">&#8592;</button>
+        <button class="down">&#8595;</button>
+        <button class="right">&#8594;</button>
+      </div> -->
+      <table>
+        <thead>
+          <tr>
+            <td>#</td>
+            <td>X</td>
+            <td>Y</td>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </main>
+  </body>
+</html>

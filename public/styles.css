@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+canvas {
+  background: #ddd;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+/* .buttons .up {
+  grid-column-start: 0;
+  grid-column-end: 4;
+} */
+
+.buttons button {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: none;
+}
